@@ -3,5 +3,5 @@ FROM ruby
 WORKDIR /
 ADD app.rb app.rb
 ADD worker.rb worker.rb
-RUN gem install sinatra --no-ri --no-rdoc
+RUN gem install sinatra
 CMD ["ruby", "app.rb"]
