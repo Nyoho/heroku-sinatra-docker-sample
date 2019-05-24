@@ -10,7 +10,7 @@ Set an environment variable:
 
 : heroku config:set KEY='value'
 
-Check on the web [[https://<heroku-app-name>.herokuapp.com][https://<heroku-app-name>.herokuapp.com]] to find =KEY= and =value=.
+Check on the web https://<heroku-app-name>.herokuapp.com] to find =KEY= and =value=.
 
 
 
