@@ -1,8 +1,16 @@
-
+#+title: A sample of environment variables on Docker on Heroku
 
 #+begin_src sh
 heroku create
-
 heroku stack:set container -a <heroku-app-name>
+heroku git:remote -a <heroku-app-name>
 #+end_src
+
+Set an environment variable:
+
+: heroku config:set KEY='value'
+
+Check on the web [[https://<heroku-app-name>.herokuapp.com][https://<heroku-app-name>.herokuapp.com]] to find =KEY= and =value=.
+
+
 
